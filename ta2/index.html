@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TA PKW 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Body -->
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons -->
+<div class="w3-bar w3-black w3-hide-small">
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+</div>
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>POKEMON BLOGLIFE</b></h1>
+    <h6>Selamat Datang di Website <span class="w3-tag">Dunia Pokemon</span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="gbr/mikel-DypO_XgAE4Y-unsplash.jpg" alt="Pikachu" width="1600" height="1060">
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white">Pikachu</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small"><b>POKEMON BLOG</b></h1>
+      <h6><button class="w3-button w3-white w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">SUBSCRIBE</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Pokemon : Detective Pikachu</h3>
+          <h5>Yogyakarta, <span class="w3-opacity">20 Juni 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="gbr/lia-xKRv2abDDeg-unsplash.jpg" alt="Pikachu2" style="width:100%" class="w3-padding-16">
+          <p><strong>Pokemon: Detective Pikachu!</strong> adalah film misteri fantasi 2019 yang disutradarai oleh Rob Letterman. Berdasarkan 
+            franchise Pokémon yang dibuat oleh Satoshi Tajiri dan berfungsi sebagai adaptasi dari video game 2016 dengan nama yang sama, ini ditulis 
+            oleh Letterman, Dan Hernandez, Benji Samit dan Derek Connolly, dari sebuah cerita oleh Hernandez, Samit dan Nicole Perlman. Film ini 
+            diproduksi oleh Legendary Pictures bekerja sama dengan Toho. Ini adalah film Pokemon laga hidup pertama.[4] Ryan Reynolds berperan 
+            sebagai suara dan penangkap gerak wajah Pikachu, dengan Justice Smith, Kathryn Newton, Suki Waterhouse, Omar Chaparro, Chris Geere, 
+            Ken Watanabe dan Bill Nighy dalam peran laga hidup.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction('demo1')" id="myBtn"><b>Replies  </b> <span class="w3-tag w3-white"></span></button></p>
+          <p class="w3-clear"></p>
+          <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Sinopsis Pokemon : Detective Pikachu</h3>
+          <h5>Jakarta, <span class="w3-opacity">21 Juni 2022</span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="gbr/jerry-johandy-dPKv2iI5ChU-unsplash.jpg" alt="Pikachu3" style="width:100%" class="w3-padding-16">
+          <p><strong>Sinopsis!</strong>Pokemon : Detective Pikachu</p>
+          <p>Di alam Pokémon, Tim Goodman adalah seorang penjual asuransi berusia 21 tahun yang melepaskan mimpinya menjadi pelatih Pokémon setelah kematian ibunya dan 
+             menjadi terasing dari ayahnya, Harry Goodman. Tim dihubungi oleh polisi dari Ryme City, sebuah kota tempat manusia dan Pokemon hidup bersama dalam damai 
+             dan menangkap serta melawan Pokémon dilarang, dan memberi tahu ayahnya telah meninggal dalam kecelakaan mobil.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-black" onclick="myFunction()"><b>Replies  </b> <span class="w3-tag w3-white"> </span></button></p>
+          <p class="w3-clear"></p>
+        </div>
+      </div>
+      
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Popular Pokemon</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <img src="gbr/bulbasaur.jfif" alt="bulbasaur" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Bulbasaur</span>
+            <br>
+            <span>Bulbasaur adalah Pokémon generasi pertama</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="gbr/charmander.jfif" alt="charmander" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Charmander</span>
+            <br>
+            <span>Seekor salamander mistis pada zaman kuno</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="gbr/squirtle.webp" alt="squirtle" class="w3-left w3-margin-right" style="width:50px">
+            <span class="w3-large">Squirtle</span>
+            <br>
+            <span>Squirtle berjenis Pokémon air</span>
+          </li>
+          <li class="w3-padding-16">
+            <img src="gbr/chikorita.png" alt="chikorita" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+            <span class="w3-large">Chikorita</span>
+            <br>
+            <span>Seekor Pokémon reptil kecil berwarna hijau</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+      <!-- Advertising -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Advertise</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <div class="w3-container w3-display-container w3-light-grey w3-section" style="height:200px">
+            <img src="" alt="ads"><span class="w3-display-middle" style="height:200px">POKEMON-GO</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Tags</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Pokemon</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Japan</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pokemon Go</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pikachu</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pokemon Heroes</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Ultra Beast</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Detective Pikachu</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tokyo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Oshawott</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Chikorita</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">The Rise of Darkrai</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pokemon : The First Movie</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Squirtle</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Trends</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Follow Me</h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Ikuti</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>Masukkan Email Anda untuk Mendapatkan Info Menarik</p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Ketik e-mail" style="width:100%" name="mail" id="mail" type="text"></p>
+          <p><button type="button" class="w3-button w3-block w3-red" onclick="tampilData()">Ikuti</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey" style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>Kembali Ke Atas</a>
+  <p>© 2022, Pengembangan Konten Web 2<a href="https://ti.umy.ac.id/"> TI UMY</a></p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

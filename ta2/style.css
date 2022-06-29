@@ -1,0 +1,21 @@
+
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans";
+    background-color:#f3f0ea ;}
+
+p {
+    font-family: 'helvetica neue', helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: justify;
+    color: #531919;
+    display: inline-block;
+    cursor: pointer;
+    }
+   .left-div{
+    width: 100px;
+    display: inline-block;
+   }
+   .right-div{
+    display:inline-block;
+   }
